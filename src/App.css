@@ -103,7 +103,6 @@ body {
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
-    background: rgba(40, 58, 90, 0.9);
 
   }
   
@@ -151,6 +150,7 @@ body {
   
   .navbar li {
     position: relative;
+    cursor: pointer;
   }
   
   .navbar a,
@@ -378,6 +378,8 @@ body {
     width: 100%;
     height: 80vh;
     background: #37517e;
+    background-image: url("./assets/images/solar1.jpg");
+    background-position-y: 150vh;
   }
   
   #hero .container {
@@ -658,9 +660,8 @@ body {
     margin-top: 5px;
   }
   
-  .why-us .content p {
-    font-size: 15px;
-    color: #848484;
+  .content {
+    color: #5c5c5c;
   }
   
   .why-us .img {
@@ -673,7 +674,7 @@ body {
     padding: 0 100px 60px 100px;
   }
   
-  .why-us .accordion-list ul {
+  ul {
     padding: 0;
     list-style: none;
   }
