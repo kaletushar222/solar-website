@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/solar-website/static/css/main.781c2fb3.css",
+    "main.js": "/solar-website/static/js/main.a5e1b269.js",
+    "static/media/solar2.jpg": "/solar-website/static/media/solar2.f8b048ebfa355a297a08.jpg",
+    "index.html": "/solar-website/index.html",
+    "main.781c2fb3.css.map": "/solar-website/static/css/main.781c2fb3.css.map",
+    "main.a5e1b269.js.map": "/solar-website/static/js/main.a5e1b269.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.781c2fb3.css",
+    "static/js/main.a5e1b269.js"
+  ]
+}
