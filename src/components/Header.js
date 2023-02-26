@@ -1,14 +1,15 @@
+import { List } from 'react-bootstrap-icons';
 import { Link } from "react-scroll";
 import Logo from '../assets/images/logo.png';
 
 const select = (el, all = false) => {
     el = el.trim()
     if (all) {
-      return [...document.querySelectorAll(el)]
+        return [...document.querySelectorAll(el)]
     } else {
-      return document.querySelector(el)
+        return document.querySelector(el)
     }
-  }
+}
 
 const toggleMobileNav = () => {
     if (
@@ -19,8 +20,7 @@ const toggleMobileNav = () => {
         || navigator.userAgent.match(/iPod/i)
         || navigator.userAgent.match(/BlackBerry/i)
         || navigator.userAgent.match(/Windows Phone/i)
-    ) 
-    {
+    ) {
         select('#navbar').classList.toggle('navbar-mobile')
     }
 }
@@ -30,19 +30,19 @@ function Header() {
         <header id="header" className="fixed-top ">
             <div className="container d-flex align-items-center">
                 <h1 className="logo me-auto">
-                            <Link to="#home" 
-                                activeClass=""
-                                className="scrollto"
-                                to="hero"
-                                spy={true}
-                                smooth={true}
-                                offset={-70}
-                                duration={400}
-                                style={{cursor: "pointer"}}
-                            >
+                    <Link to="#home"
+                        activeClass=""
+                        className="scrollto"
+                        to="hero"
+                        spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={400}
+                        style={{ cursor: "pointer" }}
+                    >
 
-                                    <img src={Logo} style={{marginTop: "-7px"}} alt="Logo" className="img-fluid"/> Glaring Evolution
-                            </Link>
+                        <img src={Logo} style={{ marginTop: "-7px" }} alt="Logo" className="img-fluid" /> Glaring Evolution
+                    </Link>
                 </h1>
                 <nav id="navbar" className="navbar">
                     <ul>
@@ -54,8 +54,8 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
-                                onClick={toggleMobileNav} 
-                                className="nav-link scrollto " 
+                                onClick={toggleMobileNav}
+                                className="nav-link scrollto "
                             >
                                 Home
                             </Link>
@@ -68,8 +68,8 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
-                                onClick={toggleMobileNav} 
-                                className="nav-link scrollto" 
+                                onClick={toggleMobileNav}
+                                className="nav-link scrollto"
                             >
                                 About
                             </Link>
@@ -82,8 +82,8 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
-                                onClick={toggleMobileNav} 
-                                className="nav-link scrollto" 
+                                onClick={toggleMobileNav}
+                                className="nav-link scrollto"
                             >
                                 Why us
                             </Link>
@@ -96,8 +96,8 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
-                                onClick={toggleMobileNav} 
-                                className="nav-link scrollto" 
+                                onClick={toggleMobileNav}
+                                className="nav-link scrollto"
                             >
                                 Services
                             </Link>
@@ -110,8 +110,8 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
-                                onClick={toggleMobileNav} 
-                                className="nav-link scrollto" 
+                                onClick={toggleMobileNav}
+                                className="nav-link scrollto"
                             >
                                 Team
                             </Link>
@@ -124,8 +124,8 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
-                                onClick={toggleMobileNav} 
-                                className="nav-link scrollto" 
+                                onClick={toggleMobileNav}
+                                className="nav-link scrollto"
                             >
                                 Contact
                             </Link>
@@ -138,14 +138,14 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
-                                className="getstarted scrollto" 
-                                onClick={toggleMobileNav} 
+                                className="getstarted scrollto"
+                                onClick={toggleMobileNav}
                             >
                                 Get Started
                             </Link>
                         </li>
                     </ul>
-                    <i onClick={ toggleMobileNav } className="bi bi-list mobile-nav-toggle"></i>
+                    <List onClick={toggleMobileNav} size={30} color="white" className="mobile-nav-toggle" />
                 </nav>
 
             </div>

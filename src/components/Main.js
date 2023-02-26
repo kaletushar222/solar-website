@@ -1,8 +1,8 @@
-import { CheckCircle, BookmarkStarFill, Check, ChevronRight } from 'react-bootstrap-icons';
-import ValueImage from '../assets/images/value.jpg';
+import { BookmarkStarFill, Check, CheckCircle } from 'react-bootstrap-icons';
+import { Link } from "react-scroll";
 import Solar3Image from '../assets/images/solar3.jpg';
 import Solar5Image from '../assets/images/solar5.jpg';
-import { Link } from "react-scroll";
+import ValueImage from '../assets/images/value.jpg';
 
 function Main() {
     return (
@@ -65,9 +65,9 @@ function Main() {
 
                     <div class="row content" style={{ padding: "0px" }}>
                         <div class="row">
-                        <p>Choosing us for your renewable energy needs means choosing a team of dedicated professionals who are committed to providing top-quality services that are tailored to your unique needs. Here are some reasons why you should choose us:</p>
+                            <p>Choosing us for your renewable energy needs means choosing a team of dedicated professionals who are committed to providing top-quality services that are tailored to your unique needs. Here are some reasons why you should choose us:</p>
                         </div>
-                        <br/><br/><br/><br/>
+                        <br /><br /><br /><br />
                         <div className='row'>
                             <ul>
                                 <li><Check size={30} color="green" />&nbsp; Over 2 MW of cumulative installation experience</li>
@@ -98,24 +98,24 @@ function Main() {
                     </div>
                 </div>
             </section>
-            <section  class="why-us">
+            <section class="why-us">
                 <div class="container" data-aos="fade-up">
                     <div class="row">
                         <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
                             <img src={ValueImage} class="img-fluid" alt="" style={{ height: "300px" }} />
                         </div>
-                        <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100" style={{padding: "2%"}}>
+                        <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100" style={{ padding: "2%" }}>
                             <br />
                             <h3>Our Values </h3>
                             <br />
                             <p class="fst-italic">
                                 <ul>
                                     <li><BookmarkStarFill size={25} color="orange" />&nbsp; Innovation</li>
-                                    <br/>
+                                    <br />
                                     <li><BookmarkStarFill size={25} color="orange" />&nbsp; Customer Satisfaction and Deliver Exceptional Service</li>
-                                    <br/>
+                                    <br />
                                     <li><BookmarkStarFill size={25} color="orange" />&nbsp; Energizing a Sustainable World</li>
-                                    <br/>
+                                    <br />
                                     <li><BookmarkStarFill size={25} color="orange" />&nbsp; Operate With Excellence</li>
                                 </ul>
                             </p>
@@ -123,7 +123,7 @@ function Main() {
                     </div>
                 </div>
             </section>
-            
+
             <section id="services" class="services section-bg">
                 <div class="container" data-aos="fade-up">
 
@@ -136,7 +136,7 @@ function Main() {
                         <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                                <h4><a href="">Solar Grid-Tied and Off-Grid Projects</a></h4>
+                                <h4><a href="#">Solar Grid-Tied and Off-Grid Projects</a></h4>
                                 <p></p>
                             </div>
                         </div>
@@ -144,7 +144,7 @@ function Main() {
                         <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4><a href="">Solar Water Heater Systems &nbsp;&nbsp;</a></h4>
+                                <h4><a href="#">Solar Water Heater Systems &nbsp;&nbsp;</a></h4>
                                 <p></p>
                             </div>
                         </div>
@@ -152,7 +152,7 @@ function Main() {
                         <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-tachometer"></i></div>
-                                <h4><a href="">Solar Street Lights &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h4>
+                                <h4><a href="#">Solar Street Lights &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h4>
                                 <p></p>
                             </div>
                         </div>
@@ -160,7 +160,7 @@ function Main() {
                         <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-layer"></i></div>
-                                <h4><a href="">Solar System AMC Services &nbsp;&nbsp;</a></h4>
+                                <h4><a href="#">Solar System AMC Services &nbsp;&nbsp;</a></h4>
                                 <p></p>
                             </div>
                         </div>
@@ -175,8 +175,8 @@ function Main() {
                     <div class="row">
                         <div class="col-lg-9 text-center text-lg-start">
                             <h3>Call To Action</h3>
-                            <br/>
-                            <p>Are you ready to make a positive impact on the environment and reduce your energy costs? Contact us today to learn how we can help you transition to renewable energy. Our team of experts is dedicated to providing top-quality services that are tailored to your unique needs.</p>    
+                            <br />
+                            <p>Are you ready to make a positive impact on the environment and reduce your energy costs? Contact us today to learn how we can help you transition to renewable energy. Our team of experts is dedicated to providing top-quality services that are tailored to your unique needs.</p>
                         </div>
                         <div class="col-lg-3 cta-btn-container text-center">
                             <Link
@@ -186,7 +186,7 @@ function Main() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
-                                className="cta-btn align-middle" 
+                                className="cta-btn align-middle"
                             >
                                 Call To Action
                             </Link>
@@ -204,7 +204,7 @@ function Main() {
                         <p>We have an expert team of experienced and dynamic personnel with a young and talented leader <strong>Mr. Harshal Kondhare</strong> who has pursued his master’s degree in Renewable Energy, London, UK with an Industrial experience of 2 years in the same field.</p>
                     </div>
 
-                    <div class="row" style={{textAlign: "center"}}>
+                    <div class="row" style={{ textAlign: "center" }}>
                         <ul>
                             <li>  Director</li>
                             <li>  Admin staff (2 Accountants and 1 HR)</li>
@@ -248,9 +248,10 @@ function Main() {
                         </div>
 
                         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                            <iframe 
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4517427127066!2d73.82058421539827!3d18.508477187415956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf6ed88b811b%3A0x8041aaadfd7952e7!2sGlaring%20Evolution%20Technologies!5e0!3m2!1sen!2sin!4v1677420872331!5m2!1sen!2sin" 
-                                frameborder="0" 
+                            <iframe
+                                title="map"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4517427127066!2d73.82058421539827!3d18.508477187415956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf6ed88b811b%3A0x8041aaadfd7952e7!2sGlaring%20Evolution%20Technologies!5e0!3m2!1sen!2sin!4v1677420872331!5m2!1sen!2sin"
+                                frameborder="0"
                                 height="600"
                                 width="800"
                                 allowfullscreen>
