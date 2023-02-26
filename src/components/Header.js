@@ -1,5 +1,5 @@
-import Logo from '../assets/images/logo.png'
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
+import Logo from '../assets/images/logo.png';
 
 const select = (el, all = false) => {
     el = el.trim()
@@ -29,12 +29,26 @@ function Header() {
     return (
         <header id="header" className="fixed-top ">
             <div className="container d-flex align-items-center">
-                <h1 className="logo me-auto"><Link href="#home"><img src={Logo} style={{marginTop: "-7px"}} alt="Logo" className="img-fluid"/> Glaring Evolution</Link></h1>
+                <h1 className="logo me-auto">
+                            <Link to="#home" 
+                                activeClass=""
+                                className="scrollto"
+                                to="hero"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={400}
+                                style={{cursor: "pointer"}}
+                            >
+
+                                    <img src={Logo} style={{marginTop: "-7px"}} alt="Logo" className="img-fluid"/> Glaring Evolution
+                            </Link>
+                </h1>
                 <nav id="navbar" className="navbar">
                     <ul>
                         <li>
                             <Link
-                                activeClass="active"
+                                activeClass=""
                                 to="hero"
                                 spy={true}
                                 smooth={true}
@@ -68,6 +82,7 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
+                                onClick={toggleMobileNav} 
                                 className="nav-link scrollto" 
                             >
                                 Why us
@@ -81,6 +96,7 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
+                                onClick={toggleMobileNav} 
                                 className="nav-link scrollto" 
                             >
                                 Services
@@ -94,6 +110,7 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
+                                onClick={toggleMobileNav} 
                                 className="nav-link scrollto" 
                             >
                                 Team
@@ -107,6 +124,7 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
+                                onClick={toggleMobileNav} 
                                 className="nav-link scrollto" 
                             >
                                 Contact
@@ -120,7 +138,8 @@ function Header() {
                                 smooth={true}
                                 offset={-70}
                                 duration={400}
-                                className="nav-link scrollto" 
+                                className="getstarted scrollto" 
+                                onClick={toggleMobileNav} 
                             >
                                 Get Started
                             </Link>

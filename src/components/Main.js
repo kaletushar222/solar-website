@@ -1,6 +1,8 @@
-import { CheckCircle, BookmarkStarFill, Check } from 'react-bootstrap-icons';
-import ValueImage from '../assets/images/value.jpg'
-import Solar3Image from '../assets/images/solar3.jpg'
+import { CheckCircle, BookmarkStarFill, Check, ChevronRight } from 'react-bootstrap-icons';
+import ValueImage from '../assets/images/value.jpg';
+import Solar3Image from '../assets/images/solar3.jpg';
+import Solar5Image from '../assets/images/solar5.jpg';
+import { Link } from "react-scroll";
 
 function Main() {
     return (
@@ -63,9 +65,7 @@ function Main() {
 
                     <div class="row content" style={{ padding: "0px" }}>
                         <div class="row">
-                            <p>
-                                Our goal is to become the leading consulting firm Renewable Energy Sector by giving our client timely superior quality service and help them earn thee due profit. And help our country to achieve sustainable energy future and to protect the planet earth now and for generation to come
-                            </p>
+                        <p>Choosing us for your renewable energy needs means choosing a team of dedicated professionals who are committed to providing top-quality services that are tailored to your unique needs. Here are some reasons why you should choose us:</p>
                         </div>
                         <br/><br/><br/><br/>
                         <div className='row'>
@@ -80,21 +80,20 @@ function Main() {
                     </div>
                 </div>
             </section>
-            <section id="tie-ups" className='why-us section-bg'>
+            <section id="our-mission" className='why-us section-bg'>
                 <div class="container-fluid" data-aos="fade-up">
                     <div class="row">
                         <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
                             <div class="content">
-                                <h3><strong>Tie-ups</strong></h3>
+                                <h3><strong>Our Mission</strong></h3>
                                 <p>
-                                    We have been working on various government projects from 2016 and we are registered bidder for Mahaetender online tendering system for State government of Maharashtra as well as various private sector companies.
-                                    We are also vendors of leading Manufacturing industries such as Sandvik Asia, Spicer India, Harman International,  Patil Automation Pvt Ltd to name a few.
+                                    Our goal is to become the leading consulting firm Renewable Energy Sector by giving our client timely superior quality service and help them earn thee due profit. And help our country to achieve sustainable energy future and to protect the planet earth now and for generation to come
                                 </p>
                             </div>
                         </div>
 
                         <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img" >
-                            <img src={Solar3Image} class="img-fluid" alt="" style={{ height: "320px" }} />
+                            <img src={Solar5Image} class="img-fluid" alt="" style={{ height: "320px" }} />
                         </div>
                     </div>
                 </div>
@@ -112,8 +111,11 @@ function Main() {
                             <p class="fst-italic">
                                 <ul>
                                     <li><BookmarkStarFill size={25} color="orange" />&nbsp; Innovation</li>
+                                    <br/>
                                     <li><BookmarkStarFill size={25} color="orange" />&nbsp; Customer Satisfaction and Deliver Exceptional Service</li>
+                                    <br/>
                                     <li><BookmarkStarFill size={25} color="orange" />&nbsp; Energizing a Sustainable World</li>
+                                    <br/>
                                     <li><BookmarkStarFill size={25} color="orange" />&nbsp; Operate With Excellence</li>
                                 </ul>
                             </p>
@@ -127,39 +129,39 @@ function Main() {
 
                     <div class="section-title">
                         <h2>Services</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>We are dedicated to providing top-quality services to our clients, and we strive to meet and exceed their expectations. Our services are designed to meet a wide range of needs, and we are committed to providing excellent customer service and support throughout every step of the process.</p>
                     </div>
 
                     <div class="row">
                         <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bxl-dribbble"></i></div>
-                                <h4><a href="">Lorem Ipsum</a></h4>
-                                <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                                <h4><a href="">Solar Grid-Tied and Off-Grid Projects</a></h4>
+                                <p></p>
                             </div>
                         </div>
 
                         <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-file"></i></div>
-                                <h4><a href="">Sed ut perspici</a></h4>
-                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+                                <h4><a href="">Solar Water Heater Systems &nbsp;&nbsp;</a></h4>
+                                <p></p>
                             </div>
                         </div>
 
                         <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-tachometer"></i></div>
-                                <h4><a href="">Magni Dolores</a></h4>
-                                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+                                <h4><a href="">Solar Street Lights &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></h4>
+                                <p></p>
                             </div>
                         </div>
 
                         <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
                             <div class="icon-box">
                                 <div class="icon"><i class="bx bx-layer"></i></div>
-                                <h4><a href="">Nemo Enim</a></h4>
-                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+                                <h4><a href="">Solar System AMC Services &nbsp;&nbsp;</a></h4>
+                                <p></p>
                             </div>
                         </div>
 
@@ -173,10 +175,21 @@ function Main() {
                     <div class="row">
                         <div class="col-lg-9 text-center text-lg-start">
                             <h3>Call To Action</h3>
-                            <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <br/>
+                            <p>Are you ready to make a positive impact on the environment and reduce your energy costs? Contact us today to learn how we can help you transition to renewable energy. Our team of experts is dedicated to providing top-quality services that are tailored to your unique needs.</p>    
                         </div>
                         <div class="col-lg-3 cta-btn-container text-center">
-                            <a class="cta-btn align-middle" href="#">Call To Action</a>
+                            <Link
+                                activeClass=""
+                                to="contact"
+                                spy={true}
+                                smooth={true}
+                                offset={-70}
+                                duration={400}
+                                className="cta-btn align-middle" 
+                            >
+                                Call To Action
+                            </Link>
                         </div>
                     </div>
 
@@ -188,197 +201,14 @@ function Main() {
 
                     <div class="section-title">
                         <h2>Team</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>We have an expert team of experienced and dynamic personnel with a young and talented leader <strong>Mr. Harshal Kondhare</strong> who has pursued his master’s degree in Renewable Energy, London, UK with an Industrial experience of 2 years in the same field.</p>
                     </div>
 
-                    <div class="row">
-
-                        <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-                            <div class="member d-flex align-items-start">
-                                <div class="pic"><img src="assets/img/team/team-1.jpg" class="img-fluid" alt="" /></div>
-                                <div class="member-info">
-                                    <h4>Walter White</h4>
-                                    <span>Chief Executive Officer</span>
-                                    <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="200">
-                            <div class="member d-flex align-items-start">
-                                <div class="pic"><img src="assets/img/team/team-2.jpg" class="img-fluid" alt="" /></div>
-                                <div class="member-info">
-                                    <h4>Sarah Jhonson</h4>
-                                    <span>Product Manager</span>
-                                    <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="300">
-                            <div class="member d-flex align-items-start">
-                                <div class="pic"><img src="assets/img/team/team-3.jpg" class="img-fluid" alt="" /></div>
-                                <div class="member-info">
-                                    <h4>William Anderson</h4>
-                                    <span>CTO</span>
-                                    <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-6 mt-4" data-aos="zoom-in" data-aos-delay="400">
-                            <div class="member d-flex align-items-start">
-                                <div class="pic"><img src="assets/img/team/team-4.jpg" class="img-fluid" alt="" /></div>
-                                <div class="member-info">
-                                    <h4>Amanda Jepson</h4>
-                                    <span>Accountant</span>
-                                    <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                                    <div class="social">
-                                        <a href=""><i class="ri-twitter-fill"></i></a>
-                                        <a href=""><i class="ri-facebook-fill"></i></a>
-                                        <a href=""><i class="ri-instagram-fill"></i></a>
-                                        <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
-            <section id="pricing" class="pricing">
-                <div class="container" data-aos="fade-up">
-
-                    <div class="section-title">
-                        <h2>Pricing</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                    </div>
-
-                    <div class="row">
-
-                        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                            <div class="box">
-                                <h3>Free Plan</h3>
-                                <h4><sup>$</sup>0<span>per month</span></h4>
-                                <ul>
-                                    <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                                    <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                                    <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                                    <li class="na"><i class="bx bx-x"></i> <span>Pharetra massa massa ultricies</span></li>
-                                    <li class="na"><i class="bx bx-x"></i> <span>Massa ultricies mi quis hendrerit</span></li>
-                                </ul>
-                                <a href="#" class="buy-btn">Get Started</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-                            <div class="box featured">
-                                <h3>Business Plan</h3>
-                                <h4><sup>$</sup>29<span>per month</span></h4>
-                                <ul>
-                                    <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                                    <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                                    <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                                    <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                                    <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                                </ul>
-                                <a href="#" class="buy-btn">Get Started</a>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
-                            <div class="box">
-                                <h3>Developer Plan</h3>
-                                <h4><sup>$</sup>49<span>per month</span></h4>
-                                <ul>
-                                    <li><i class="bx bx-check"></i> Quam adipiscing vitae proin</li>
-                                    <li><i class="bx bx-check"></i> Nec feugiat nisl pretium</li>
-                                    <li><i class="bx bx-check"></i> Nulla at volutpat diam uteera</li>
-                                    <li><i class="bx bx-check"></i> Pharetra massa massa ultricies</li>
-                                    <li><i class="bx bx-check"></i> Massa ultricies mi quis hendrerit</li>
-                                </ul>
-                                <a href="#" class="buy-btn">Get Started</a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
-            </section>
-            <section id="faq" class="faq section-bg">
-                <div class="container" data-aos="fade-up">
-
-                    <div class="section-title">
-                        <h2>Frequently Asked Questions</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-                    </div>
-
-                    <div class="faq-list">
+                    <div class="row" style={{textAlign: "center"}}>
                         <ul>
-                            <li data-aos="fade-up" data-aos-delay="100">
-                                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                                    <p>
-                                        Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="200">
-                                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                                    <p>
-                                        Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="300">
-                                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                                    <p>
-                                        Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="400">
-                                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                                    <p>
-                                        Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
-                                    </p>
-                                </div>
-                            </li>
-
-                            <li data-aos="fade-up" data-aos-delay="500">
-                                <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-                                <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
-                                    <p>
-                                        Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                                    </p>
-                                </div>
-                            </li>
-
+                            <li>  Director</li>
+                            <li>  Admin staff (2 Accountants and 1 HR)</li>
+                            <li>  Field staff - (2 site engineers, 1 site supervisor, 2 skilled electricians and 6 unskilled workers.</li>
                         </ul>
                     </div>
 
@@ -389,7 +219,7 @@ function Main() {
 
                     <div class="section-title">
                         <h2>Contact</h2>
-                        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                        <p>Thank you for your interest in our services. Please send and email to us with your contact information and a brief message about your inquiry. We will get back to you as soon as possible. Thank you!</p>
                     </div>
 
                     <div class="row">
@@ -399,7 +229,7 @@ function Main() {
                                 <div class="address">
                                     <i class="bi bi-geo-alt"></i>
                                     <h4>Location:</h4>
-                                    <p>A108 Adam Street, New York, NY 535022</p>
+                                    <p>Glaring Evolution Technologies Office no 26, Royal Chambers, Opp Suzuki Showroom, Paud Road, Pune - 411038</p>
                                 </div>
 
                                 <div class="email">
@@ -413,39 +243,18 @@ function Main() {
                                     <h4>Call:</h4>
                                     <p>+1 5589 55488 55s</p>
                                 </div>
-
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
                             </div>
 
                         </div>
 
                         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-                            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                                <div class="row">
-                                    <div class="form-group col-md-6">
-                                        <label for="name">Your Name</label>
-                                        <input type="text" name="name" class="form-control" id="name" required />
-                                    </div>
-                                    <div class="form-group col-md-6">
-                                        <label for="name">Your Email</label>
-                                        <input type="email" class="form-control" name="email" id="email" required />
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label for="name">Subject</label>
-                                    <input type="text" class="form-control" name="subject" id="subject" required />
-                                </div>
-                                <div class="form-group">
-                                    <label for="name">Message</label>
-                                    <textarea class="form-control" name="message" rows="10" required></textarea>
-                                </div>
-                                <div class="my-3">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!</div>
-                                </div>
-                                <div class="text-center"><button type="submit">Send Message</button></div>
-                            </form>
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.4517427127066!2d73.82058421539827!3d18.508477187415956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf6ed88b811b%3A0x8041aaadfd7952e7!2sGlaring%20Evolution%20Technologies!5e0!3m2!1sen!2sin!4v1677420872331!5m2!1sen!2sin" 
+                                frameborder="0" 
+                                height="600"
+                                width="800"
+                                allowfullscreen>
+                            </iframe>
                         </div>
 
                     </div>

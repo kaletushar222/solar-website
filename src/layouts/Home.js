@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import Banner from '../components/Banner.js';
 import Header from '../components/Header.js';
 import Main from '../components/Main.js';
-
+import Footer from '../components/Footer.js';
 
 
 function Home() {
@@ -35,6 +35,7 @@ function Home() {
 			<Header />
 			<Banner />
 			<Main />
+			<Footer />
 		</div>
 	);
 }
