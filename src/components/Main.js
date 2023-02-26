@@ -235,13 +235,13 @@ function Main() {
                                 <div class="email">
                                     <i class="bi bi-envelope"></i>
                                     <h4>Email:</h4>
-                                    <p>info@example.com</p>
+                                    <p>info@glaringevolution.com</p>
                                 </div>
 
                                 <div class="phone">
                                     <i class="bi bi-phone"></i>
                                     <h4>Call:</h4>
-                                    <p>+1 5589 55488 55s</p>
+                                    <p>+91 7030991164</p>
                                 </div>
                             </div>
 
