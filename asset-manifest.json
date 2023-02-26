@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/solar-website/static/css/main.365d985c.css",
-    "main.js": "/solar-website/static/js/main.5efc8a15.js",
+    "main.css": "/solar-website/static/css/main.a96dc968.css",
+    "main.js": "/solar-website/static/js/main.7d81f928.js",
     "static/media/solar1.jpg": "/solar-website/static/media/solar1.3f526aa8158fb2be01a9.jpg",
+    "static/media/solar5.jpg": "/solar-website/static/media/solar5.d7956b9ca7989850dbe6.jpg",
     "static/media/bootstrap-icons.woff?": "/solar-website/static/media/bootstrap-icons.6959d0d983ee318f8880.woff",
     "static/media/bootstrap-icons.woff2?": "/solar-website/static/media/bootstrap-icons.b2e5aab643c6f0fd2da6.woff2",
     "static/media/solar3.jpg": "/solar-website/static/media/solar3.ecbf7553ead56c43f067.jpg",
+    "static/media/solar4.jpg": "/solar-website/static/media/solar4.5f0dc2e2bfad2bf689b6.jpg",
     "static/media/logo.png": "/solar-website/static/media/logo.cbd2b6b14397b5b6cf3b.png",
     "static/media/value.jpg": "/solar-website/static/media/value.2c0b95998cd8efa434c1.jpg",
     "index.html": "/solar-website/index.html",
-    "main.365d985c.css.map": "/solar-website/static/css/main.365d985c.css.map",
-    "main.5efc8a15.js.map": "/solar-website/static/js/main.5efc8a15.js.map"
+    "main.a96dc968.css.map": "/solar-website/static/css/main.a96dc968.css.map",
+    "main.7d81f928.js.map": "/solar-website/static/js/main.7d81f928.js.map"
   },
   "entrypoints": [
-    "static/css/main.365d985c.css",
-    "static/js/main.5efc8a15.js"
+    "static/css/main.a96dc968.css",
+    "static/js/main.7d81f928.js"
   ]
 }
