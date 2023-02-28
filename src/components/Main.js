@@ -219,7 +219,7 @@ function Main() {
 
                     <div class="section-title">
                         <h2>Contact</h2>
-                        <p>Thank you for your interest in our services. Please send and email to us with your contact information and a brief message about your inquiry. We will get back to you as soon as possible. Thank you!</p>
+                        <p>Thank you for your interest in our services. Please send an email to us with your contact information and a brief message about your inquiry. We will get back to you as soon as possible. Thank you!</p>
                     </div>
 
                     <div class="row">
