@@ -1,4 +1,4 @@
-import { BookmarkStarFill, Check, CheckCircle } from 'react-bootstrap-icons';
+import { BookmarkStarFill, Check, CheckCircle, GeoAltFill, EnvelopeAtFill, PhoneFill } from 'react-bootstrap-icons';
 import { Link } from "react-scroll";
 import Solar3Image from '../assets/images/solar3.jpg';
 import Solar5Image from '../assets/images/solar5.jpg';
@@ -227,19 +227,19 @@ function Main() {
                         <div class="col-lg-5 d-flex align-items-stretch">
                             <div class="info">
                                 <div class="address">
-                                    <i class="bi bi-geo-alt"></i>
+                                    <GeoAltFill size={35}/>
                                     <h4>Location:</h4>
                                     <p>Glaring Evolution Technologies Office no 26, Royal Chambers, Opp Suzuki Showroom, Paud Road, Pune - 411038</p>
                                 </div>
 
                                 <div class="email">
-                                    <i class="bi bi-envelope"></i>
+                                    <EnvelopeAtFill size={35} />
                                     <h4>Email:</h4>
                                     <p>info@glaringevolution.com</p>
                                 </div>
 
                                 <div class="phone">
-                                    <i class="bi bi-phone"></i>
+                                    <PhoneFill  size={35}  />
                                     <h4>Call:</h4>
                                     <p>+91 7030991164</p>
                                 </div>
